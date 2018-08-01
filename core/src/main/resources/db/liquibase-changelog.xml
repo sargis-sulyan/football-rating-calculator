@@ -1,0 +1,23 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="initial" author="Sargis Sulyan">
+        <sqlFile dbms="mysql"
+                 encoding="UTF-8"
+                 path="/db/sql/football-ratings-init-2018-08-01.sql"
+                 splitStatements="true"
+                 stripComments="false"/>
+    </changeSet>
+
+    <changeSet id="football-ratings-user-2018-08-01" author="Sargis Sulyan">
+        <sqlFile dbms="mysql"
+                 encoding="UTF-8"
+                 path="/db/sql/football-ratings-user-2018-08-01.sql"
+                 splitStatements="true"
+                 stripComments="false"/>
+    </changeSet>
+
+</databaseChangeLog>
