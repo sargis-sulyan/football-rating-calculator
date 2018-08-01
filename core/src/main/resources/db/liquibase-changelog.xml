@@ -20,4 +20,13 @@
                  stripComments="false"/>
     </changeSet>
 
+    <!--<changeSet id="sp_stat_transfers" author="Doocat Team (doocatteam@energizeglobal.com)">
+        <sqlFile dbms="mysql"
+                 encoding="UTF-8"
+                 endDelimiter=";;"
+                 path="db/sql/procedures/sp_stat_transfers.sql"
+                 splitStatements="true"
+                 stripComments="false"/>
+    </changeSet>-->
+
 </databaseChangeLog>
