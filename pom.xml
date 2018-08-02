@@ -20,7 +20,7 @@
 	<modules>
 		<module>web-ui</module>
 		<module>common</module>
-		<module>core</module>
+		<module>web-services</module>
 	</modules>
 
 	<properties>

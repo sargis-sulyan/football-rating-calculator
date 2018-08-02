@@ -12,14 +12,6 @@
                  stripComments="false"/>
     </changeSet>
 
-    <changeSet id="football-ratings-user-2018-08-01" author="Sargis Sulyan">
-        <sqlFile dbms="mysql"
-                 encoding="UTF-8"
-                 path="/db/sql/football-ratings-user-2018-08-01.sql"
-                 splitStatements="true"
-                 stripComments="false"/>
-    </changeSet>
-
     <!--<changeSet id="sp_stat_transfers" author="Doocat Team (doocatteam@energizeglobal.com)">
         <sqlFile dbms="mysql"
                  encoding="UTF-8"
